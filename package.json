@@ -1,0 +1,20 @@
+{
+  "name": "@antv/g-perf",
+  "version": "1.0.0",
+  "description": "Performance monitor for G.",
+  "main": "lib/index.js",
+  "scripts": {
+    "tsc": "tsc --noEmit",
+    "build": "rm -rf lib && tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "keywords": [
+    "G",
+    "perf",
+    "monitor"
+  ],
+  "author": "antv",
+  "license": "MIT"
+}
